@@ -1,0 +1,12 @@
+codecov>=2.0.0
+coverage==4.4.1
+flake8>=2.1.0
+invoke
+m2r2
+mock>=1.0.1
+pre-commit
+sphinx
+tox>=1.7.0
+twine
+wheel
+zest.releaser

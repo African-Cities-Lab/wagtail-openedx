@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% load i18n wagtailcore_tags wagtailimages_tags %}
+
+{% block content %}
+    <h1>{{ page.title }} ({{ page.slug }})</h1>
+
+    <h4>{% translate "Categories" %}:</h4> {% for category in page.categories.all %}<p>{{ category.name }}</p>{% endfor %}
+
+    <h4>{% translate "Classes start" %}:</h4> {% for run in page.runs.all %}<p>{{ run.start }}</p>{% endfor %}
+
+    {% image page.image max-800x600 %}
+
+    {{ page.description|richtext }}
+
+    <h2>{% translate "Instructors" %}</h2>
+    {% for instructor in page.instructors.all %}
+        <h3>{{ instructor.name }}</h3>
+        {{ instructor.bio|richtext }}
+    {% endfor %}
+{% endblock %}
