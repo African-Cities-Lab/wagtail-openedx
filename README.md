@@ -1,7 +1,7 @@
 # Wagtail openedX
 
-[![Build Status](https://github.com/martibosch/wagtail-openedx/workflows/tests/badge.svg?branch=main)](https://github.com/martibosch/wagtail-openedx/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/martibosch/wagtail-openedx/branch/main/graph/badge.svg?token=SUqrfqOQEG)](https://codecov.io/gh/martibosch/wagtail-openedx)
+[![Build Status](https://github.com/African-Cities-Lab/wagtail-openedx/workflows/tests/badge.svg?branch=main)](https://github.com/African-Cities-Lab/wagtail-openedx/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/African-Cities-Lab/wagtail-openedx/branch/main/graph/badge.svg?token=SUqrfqOQEG)](https://codecov.io/gh/African-Cities-Lab/wagtail-openedx)
 
 Lightweight CMS for openedX portals.
 
@@ -31,7 +31,7 @@ Lightweight CMS for openedX portals.
 
 5. Start the development server and go to `https://localhost:8000/catalog/sync-courses`
 
-See [martibosch/wagtail-openedx-site](https://github.com/martibosch/wagtail-openedx-site) for an example production-ready django site using `wagtail-openedx`.
+See [African-Cities-Lab/wagtail-openedx-site](https://github.com/African-Cities-Lab/wagtail-openedx-site) for an example production-ready django site using `wagtail-openedx`.
 
 
 ## Acknowledgments

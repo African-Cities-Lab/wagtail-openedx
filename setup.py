@@ -52,7 +52,7 @@ setup(
     long_description=readme + "\n\n" + changelog,
     author="Martí Bosch",
     author_email="marti.bosch@epfl.ch",
-    url="https://github.com/martibosch/wagtail-openedx",
+    url="https://github.com/African-Cities-Lab/wagtail-openedx",
     packages=[
         "wagtail_openedx",
     ],
